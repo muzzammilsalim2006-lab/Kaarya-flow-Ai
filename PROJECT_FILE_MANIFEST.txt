@@ -1,0 +1,188 @@
+======================================================================
+                     KAARYAFLOW AI PROJECT FILE MANIFEST
+======================================================================
+
+Below is the complete inventory of all files exported to:
+C:\Users\SALIM SIR\Desktop\Hackathons\kaaryaflow-ai\
+
+No dependencies or caches (node_modules, .next, .venv, __pycache__) are included to ensure clean installations.
+
+----------------------------------------------------------------------
+1. PITCH_SUMMARY.md
+----------------------------------------------------------------------
+Relative Path: PITCH_SUMMARY.md
+Purpose: Project pitch, architectural overview, and workflow explanation.
+Required to Run Frontend: No
+Required to Run Backend: No
+Dependencies: None
+
+----------------------------------------------------------------------
+2. backend/main.py
+----------------------------------------------------------------------
+Relative Path: backend/main.py
+Purpose: Main FastAPI backend server defining endpoints for metrics, optimization, and staff reallocation.
+Required to Run Frontend: No (independent execution)
+Required to Run Backend: Yes
+Dependencies: fastapi, uvicorn, pydantic, python-multipart, backend/queue_detector.py
+
+----------------------------------------------------------------------
+3. backend/queue_detector.py
+----------------------------------------------------------------------
+Relative Path: backend/queue_detector.py
+Purpose: Region-of-interest (ROI) queue parsing logic, supporting YOLO detection and simulated fallbacks.
+Required to Run Frontend: No
+Required to Run Backend: Yes
+Dependencies: cv2 (opencv-python-headless), ultralytics (optional)
+
+----------------------------------------------------------------------
+4. backend/requirements.txt
+----------------------------------------------------------------------
+Relative Path: backend/requirements.txt
+Purpose: Python virtual environment dependency list.
+Required to Run Frontend: No
+Required to Run Backend: Yes
+Dependencies: None
+
+----------------------------------------------------------------------
+5. frontend/.eslintrc.json
+----------------------------------------------------------------------
+Relative Path: frontend/.eslintrc.json
+Purpose: ESLint ruleset defining syntax check restrictions for development code quality.
+Required to Run Frontend: Yes (dev-time linting)
+Required to Run Backend: No
+Dependencies: None
+
+----------------------------------------------------------------------
+6. frontend/.gitignore
+----------------------------------------------------------------------
+Relative Path: frontend/.gitignore
+Purpose: Tells Git version control which temporary files, logs, and dependencies (like node_modules and .next) to ignore.
+Required to Run Frontend: Yes (project management)
+Required to Run Backend: No
+Dependencies: None
+
+----------------------------------------------------------------------
+7. frontend/README.md
+----------------------------------------------------------------------
+Relative Path: frontend/README.md
+Purpose: Quick-start instructions for running and compiling the frontend application.
+Required to Run Frontend: No
+Required to Run Backend: No
+Dependencies: None
+
+----------------------------------------------------------------------
+8. frontend/app/favicon.ico
+----------------------------------------------------------------------
+Relative Path: frontend/app/favicon.ico
+Purpose: Icon asset displayed in browser browser tabs.
+Required to Run Frontend: Yes
+Required to Run Backend: No
+Dependencies: None
+
+----------------------------------------------------------------------
+9. frontend/app/fonts/GeistMonoVF.woff
+----------------------------------------------------------------------
+Relative Path: frontend/app/fonts/GeistMonoVF.woff
+Purpose: Local monospace font asset supporting system status and data typography on the dashboard.
+Required to Run Frontend: Yes
+Required to Run Backend: No
+Dependencies: None
+
+----------------------------------------------------------------------
+10. frontend/app/fonts/GeistVF.woff
+----------------------------------------------------------------------
+Relative Path: frontend/app/fonts/GeistVF.woff
+Purpose: Local variable sans-serif font asset for primary dashboard typography.
+Required to Run Frontend: Yes
+Required to Run Backend: No
+Dependencies: None
+
+----------------------------------------------------------------------
+11. frontend/app/globals.css
+----------------------------------------------------------------------
+Relative Path: frontend/app/globals.css
+Purpose: Main stylesheet holding base Tailwind directives, custom resets, and custom scrollbar styles.
+Required to Run Frontend: Yes
+Required to Run Backend: No
+Dependencies: None
+
+----------------------------------------------------------------------
+12. frontend/app/layout.tsx
+----------------------------------------------------------------------
+Relative Path: frontend/app/layout.tsx
+Purpose: Root wrapper defining layout rules, SEO metadata headers, and viewport options for the page tree.
+Required to Run Frontend: Yes
+Required to Run Backend: No
+Dependencies: frontend/app/globals.css
+
+----------------------------------------------------------------------
+13. frontend/app/page.tsx
+----------------------------------------------------------------------
+Relative Path: frontend/app/page.tsx
+Purpose: Core dashboard UI script. Renders simulated live CCTV feeds, counter status metrics, and staffing optimization consoles.
+Required to Run Frontend: Yes
+Required to Run Backend: No
+Dependencies: lucide-react, clsx, tailwind-merge
+
+----------------------------------------------------------------------
+14. frontend/next-env.d.ts
+----------------------------------------------------------------------
+Relative Path: frontend/next-env.d.ts
+Purpose: Auto-generated TypeScript type declaration compiler declarations file.
+Required to Run Frontend: Yes
+Required to Run Backend: No
+Dependencies: None
+
+----------------------------------------------------------------------
+15. frontend/next.config.mjs
+----------------------------------------------------------------------
+Relative Path: frontend/next.config.mjs
+Purpose: Compilation and runtime Next.js custom rules configuration.
+Required to Run Frontend: Yes
+Required to Run Backend: No
+Dependencies: None
+
+----------------------------------------------------------------------
+16. frontend/package-lock.json
+----------------------------------------------------------------------
+Relative Path: frontend/package-lock.json
+Purpose: Locked list of exact frontend dependency sub-packages to avoid versions mismatch during installs.
+Required to Run Frontend: Yes
+Required to Run Backend: No
+Dependencies: None
+
+----------------------------------------------------------------------
+17. frontend/package.json
+----------------------------------------------------------------------
+Relative Path: frontend/package.json
+Purpose: Project description, dev script launchers, and main dependency version bounds.
+Required to Run Frontend: Yes
+Required to Run Backend: No
+Dependencies: None
+
+----------------------------------------------------------------------
+18. frontend/postcss.config.mjs
+----------------------------------------------------------------------
+Relative Path: frontend/postcss.config.mjs
+Purpose: Configuration options for PostCSS preprocessing required to translate Tailwind CSS rules.
+Required to Run Frontend: Yes
+Required to Run Backend: No
+Dependencies: None
+
+----------------------------------------------------------------------
+19. frontend/tailwind.config.ts
+----------------------------------------------------------------------
+Relative Path: frontend/tailwind.config.ts
+Purpose: Style framework config setting core theme variables, font linkages, and color templates.
+Required to Run Frontend: Yes
+Required to Run Backend: No
+Dependencies: None
+
+----------------------------------------------------------------------
+20. frontend/tsconfig.json
+----------------------------------------------------------------------
+Relative Path: frontend/tsconfig.json
+Purpose: Ruleset instructing how the TypeScript compiler must compile tsx modules into client javascript.
+Required to Run Frontend: Yes
+Required to Run Backend: No
+Dependencies: None
